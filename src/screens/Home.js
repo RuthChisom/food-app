@@ -3,7 +3,7 @@ import React from "react";
 
 import Section from "../components/Section";
 import HeaderContent from "../components/HeaderContent";
-import { categories } from "./../externalData";
+import { categories } from "../../externalData";
 import FoodItem from "../components/FoodItem";
 
 const Home = () => {

@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
-import Home from "../screens/Home";
-import Profile from "../screens/Profile";
-import MarketPlace from "../screens/MarketPlace";
-import Community from "../screens/Community";
+import Home from "../src/screens/Home";
+import Profile from "../src/screens/Profile";
+import MarketPlace from "../src/screens/MarketPlace";
+import Community from "../src/screens/Community";
 
 import { Image, View } from "react-native";
 
@@ -30,7 +30,7 @@ const BottomTabs = () => {
                 }}
               >
                 <Image
-                  source={require("../assets/icons/home.png")}
+                  source={require("../src/assets/icons/home.png")}
                   style={{
                     width: 20,
                     height: 20,
@@ -57,7 +57,7 @@ const BottomTabs = () => {
                 }}
               >
                 <Image
-                  source={require("../assets/icons/search.png")}
+                  source={require("../src/assets/icons/search.png")}
                   style={{
                     width: 20,
                     height: 20,
@@ -84,7 +84,7 @@ const BottomTabs = () => {
                 }}
               >
                 <Image
-                  source={require("../assets/icons/email.png")}
+                  source={require("../src/assets/icons/email.png")}
                   style={{
                     width: 20,
                     height: 20,
@@ -111,7 +111,7 @@ const BottomTabs = () => {
                 }}
               >
                 <Image
-                  source={require("../assets/icons/user.png")}
+                  source={require("../src/assets/icons/user.png")}
                   style={{
                     width: 20,
                     height: 20,
